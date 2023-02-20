@@ -10,7 +10,16 @@ const Home = () => {
 	const [list, setList]=useState([]);
 
 	return (
-		<div className="container text-center">
+		<div className="container text-center" style={{
+			padding: "5%",
+			border: "10%",
+			background: 'url("https://static.vecteezy.com/system/resources/thumbnails/009/360/076/small/watercolor-pastel-cloud-background-free-vector.jpg")',
+			width: "100%", 
+			backgroundRepeat: "no-repeat",
+			backgroundSize: "cover",
+			
+			
+		  }} >
 
 			<div>
 				<h1 className="text-center mt-5 mb-3 text-info" style={{fontFamily: "cursive", fontWeight: "bold"}}>Mi Lista de Tareas</h1>
@@ -51,6 +60,7 @@ const Home = () => {
 			</div>
 			
 		</div>
+	
 	);
 };
 
